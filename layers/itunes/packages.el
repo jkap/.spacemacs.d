@@ -2,7 +2,7 @@
 ;;
 ;; Copyright (c) 2012-2017 Sylvain Benner & Contributors
 ;;
-;; Author: jenn kaplan <jkap@jkap.corp.apple.com>
+;; Author: jæ kaplan <me@jkap.io>
 ;; URL: https://github.com/syl20bnr/spacemacs
 ;;
 ;; This file is not part of GNU Emacs.
@@ -30,7 +30,9 @@
 ;;; Code:
 
 (defconst itunes-packages
-  '((helm-itunes :fetcher github :repo "jkap/helm-itunes"))
+  '(
+    (helm-itunes :fetcher github :repo "jkap/helm-itunes")
+    (itunes :location 'local))
   "The list of Lisp packages required by the itunes layer.
 
 Each entry is either:
